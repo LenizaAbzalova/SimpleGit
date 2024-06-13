@@ -422,8 +422,23 @@ header{
 
 
 /*section2*/
+.png1_media{
+    display: none;
+}
+
+.png2_media{
+    display: none;
+}
+
+.png3_media{
+    display: none;
+}
 
 .img_4_sec2_media{
+    display: none;
+}
+
+.img_4_sec2_media2{
     display: none;
 }
 
@@ -432,6 +447,10 @@ header{
 }
 
 .line_media2{
+    display: none;
+}
+
+.line_media3{
     display: none;
 }
 
@@ -458,7 +477,6 @@ header{
 
 .cont_img_text{
     display: flex;
-    
 }
 
 .cont1_card{
@@ -718,7 +736,9 @@ header{
 }
 
 @media(max-width:480px){
+
     /*sec2*/
+
     .section2{
         background-color: #EBEBEB;
         width: auto;
@@ -726,37 +746,37 @@ header{
     }
 
     .container1_sec2{
-        width: 480px;
-        height: 755px;
+        width: 290px;
+        height: 1100px;
         margin: auto;
         padding-top: 60px;
     }
     
     .container_cards_sec2{
-        width: 480px;
-        height: 203px;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 50px;
+        width: 290px;
+        height: 370px;
+        flex-direction: column;
+        margin-bottom: 0px;
     }
 
     .cont1_card{
-        width: 150px;
-        height: 203px;
+        width: 290px;
+        height: 116px;
     }
 
     .cont2_card{
-        width: 150px;
-        height: 203px;
+        width: 290px;
+        height: 116px;
     }
 
     .cont3_card{
-        width: 150px;
-        height: 203px;
+        width: 290px;
+        height: 116px;
     }
 
     .cont_img_text{
-        flex-direction: column;
+        flex-direction: row;
+        
     }
 
     .line_sec2{
@@ -768,12 +788,16 @@ header{
     }
 
     .line_media2{
+        display: none;
+    }
+
+    .line_media3{
         display: block;
     }
 
     .text_card{
-        margin-left: 0px;
-        margin-top: 0px;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .img_4_sec2{
@@ -781,20 +805,24 @@ header{
     }
 
     .img_4_sec2_media{
+        display: none;
+    }
+
+    .img_4_sec2_media2{
         display: block;
     }
 
     .big_card{
-        width: 480px;
-        height: 512px;
+        width: 290px;
+        height: 450px;
         flex-direction: column;
-        justify-content: space-between;
+        margin-top: 50px;
     }
 
     .text_bcard{
         margin-top: 0px;
         height: 205px;
-        width: 480px;
+        width: 290px;
         margin-right: auto;
     }
 
@@ -808,7 +836,44 @@ header{
         font-size: 24px;
         color: #666666;
     }
+
+    .txt2_bcard{
+        font-size: 16px;
+        color: #85859B;
+        line-height: 30.6px;
+        margin-top: 15px;
+    }
+
+    .txt3_bcard{
+        font-size: 16px;
+        color: #85859B;
+        line-height: 30.6px;
+        margin-top: 15px;
+    }
     
+    .png1{
+        display: none;
+    }
+
+    .png1_media{
+        display: block;
+    }
+
+    .png2{
+        display: none;
+    }
+
+    .png2_media{
+        display: block;
+    }
+
+    .png3{
+        display: none;
+    }
+
+    .png3_media{
+        display: block;
+    }
 }
 
 
