@@ -141,7 +141,7 @@ header{
     }
 }
 
-@media(max-width:480px){
+@media(max-width:500px){
     /*header*/
     header{
         width: 310px;
@@ -368,7 +368,7 @@ header{
     
 }
 
-@media(max-width:480px){
+@media(max-width:500px){
     /*sec1*/
 
     .image1_sec1{
@@ -735,7 +735,7 @@ header{
     
 }
 
-@media(max-width:480px){
+@media(max-width:500px){
 
     /*sec2*/
 
@@ -1160,16 +1160,19 @@ header{
     .cards1_2{
         display: flex;
         justify-content: space-between;
+        
     }
 
     .cards3_4{
         display: flex;
         justify-content: space-between;
+        
     }
 
     .card1_sec3{
         width: 240px;
         height: 500px;
+        margin-right: 10px;
     }
     
     .card2_sec3{
@@ -1180,6 +1183,7 @@ header{
     .card3_sec3{
         width: 240px;
         height: 500px;
+        margin-right: 10px;
     }
     
     .card4_sec3{
@@ -1188,7 +1192,7 @@ header{
     }
 }
 
-@media(max-width:480px){
+@media(max-width:500px){
 
     /*sec3*/
 
